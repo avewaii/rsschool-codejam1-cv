@@ -6,7 +6,6 @@
     width: 1024px;
     margin: 0 auto;
     background-color: #356577;
-    /*padding: 20px 40px;*/
 }
 h1 {
     background-color: #FCEFFC;
@@ -56,34 +55,18 @@ h3 {
     font-size: 25px;
     font-weight: 400;
 }
-ul {
-
-}
 li{
     list-style:circle;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
 
 }
-.codeExamples {
-    /*display: flex;
-    background-color: green;*/
-
-}
 .examples {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    /*background-color: #457889;*/
-}
-figure {
-    width: 200%;
-    height: 60%;
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 50px;
-}
 
+}
 .examples a {
     text-decoration: underline;
     font-family: 'Merriweather Sans', sans-serif;
@@ -93,7 +76,7 @@ figure {
 .examples a:hover {
     color: #457898;
 }
-.examples figcaption {
+.examples p {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
     margin-left: 50px;
