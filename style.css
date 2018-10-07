@@ -11,7 +11,7 @@
 h1 {
     background-color: #468947;
     display: inline;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 50px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 50px;
@@ -29,11 +29,12 @@ h1 {
 }
 .HeaderConteiner p {
     display: inline;
-    background-color: #567;
-    margin-left: 70px;
+    background-color: #569877;
+    margin-left: 300px;
 }
 .HeaderConteinerDescription {
     padding-top: 180px;
+    /*background-color: pink;*/
 }
 .summary {
     background-color: #FCEFFC;
@@ -48,25 +49,50 @@ h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
 }
-p {
-    text-align: center;
+.summary p {
+    text-align: left;
     font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+ul {
+
+}
+li{
+    list-style:circle;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+
 }
 .codeExamples {
-    /*display: flex;*/
-    background-color: green;
+    /*display: flex;
+    background-color: green;*/
 
 }
 .examples {
     display: flex;
     justify-content: space-around;
+    width: 100%;
     background-color: #457889;
 }
 figure {
+    width: 200%;
+    height: 60%;
     display: flex;
-    background-color: yellow;
-    border: 1px solid gray;
+    flex-direction: column-reverse;
+    /*background-color: yellow;*/
+    margin-bottom: 50px;
 }
-figure img {
-    height: 200px;
+figure iframe {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+figure figcaption {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+ul {
+    margin-left: 50px;
 }

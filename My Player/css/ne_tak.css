@@ -1,0 +1,193 @@
+body {
+	background-color: #f5e6ff;
+} 
+#wrapper {
+	margin: 0 auto;
+	max-width: 1300px;
+	position: relative;
+	left: 1%;
+	
+	
+}
+header {
+	height:60px;
+	width:100%;
+	margin: 0 2px;
+	padding: 10px 0;
+	background-color: white;
+}
+header img /*лого*/{
+	float:left;
+	margin: 0 35px;
+	width: 200px;
+	height: 80px;
+	vertical-align: center;
+	position: relative;
+	bottom: 10px;
+	
+}
+form {
+	float: left;
+	margin:20px;
+	
+}
+input[type="text"] {	
+	background-color: white;
+	height: 30px;
+	color: gray;
+	padding: 0 50px 0 10px;
+} 
+button {
+	color: white;
+	background-color: #e3a9be;
+	border: none;
+	height: 34px;
+	font-family: 'Oswald', sans-serif;
+} 
+ul {
+	background-color: white;
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+    position: relative;
+	left: 30px;
+}
+li{
+	
+	background-color: white;
+	text-align: justify;
+	vertical-align: center;
+	display: inline-block;
+}
+li a {
+	color: black;
+	text-decoration: none;
+	padding: 8px 15px 23px;
+}
+li a:hover {
+	color: #e3a9be;
+	
+	text-decoration: none;
+} 
+li.active {
+	padding: 10px 15px 23px;
+	border-bottom:3px solid #e3a9be;
+}
+.profil {
+	float:right;
+}
+.foto-profil {
+	height: 50px;
+	width: 50px;
+	margin: -12px 30px 10px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: right;
+}
+
+.profil a {
+	float:left;	
+	color: black;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.profil a:hover {
+	color: #e3a9be;
+	text-decoration: none;	
+}
+.osnovaireklama { 
+	width: 100%;
+	
+}
+main{
+	background-color: white;
+	float: left;
+	margin: 0px;
+	height: 69.1vh;
+	width: 73%;
+	position: relative;
+	bottom: 11px;
+	left: 2px;
+}
+main a{
+	text-decoration: none;
+}
+h1 {
+	font-weight: bold;
+	margin: 60px 10px 10px;
+	padding-left: 60px;
+}
+p {
+	padding-left: 60px;
+	font-family: Times New Poman, serif;
+	font-size: 18px;
+	margin: 5px 10px;
+}
+aside { /*реклама*/
+	float: left;
+	position: relative; 
+	left: 3px;
+	bottom: 11px;
+	background-color: white;
+	margin: 0px;
+	width: 26.85%;
+	height: 69.1vh;
+} 
+div.reklama {
+	position: relative;
+	left: 1px;
+}
+aside a.rekl11 {
+	font-size: 14px;
+	position: relative;
+	left: 100px;
+	
+}
+aside a {
+	text-decoration: none;
+	text-align: right;
+	font-size: 20px;
+}
+aside a:hover {
+	text-decoration: underline;
+}
+footer {
+	float: left;
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	position: relative;
+	bottom: 10px;
+	left: 2px;
+	
+}
+footer ul  {
+	float: left;
+	width: 100px;
+	height: 70px;
+}
+footer li {
+	padding: 3px;
+	margin-top: 0;
+	display: inline-block;
+}
+.footer {
+	float: left;
+	margin-top: 0;
+	padding: 0;
+	width: 500px;
+	position: absolute;
+	top: 20px;
+	left: 11px;
+}
+.znaki {
+	float: right;
+	display: inline-block;
+	margin-top: 0;
+	padding: 0;
+	width: 450px;
+	position: absolute;
+	top: 20px;
+	left: 850px;
+}
