@@ -74,24 +74,30 @@ li{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #457889;
+    /*background-color: #457889;*/
 }
 figure {
     width: 200%;
     height: 60%;
     display: flex;
     flex-direction: column-reverse;
-    /*background-color: yellow;*/
     margin-bottom: 50px;
 }
-figure iframe {
-    height: 100%;
-    scroll-behavior: smooth;
-}
-figure figcaption {
+
+.examples a {
+    text-decoration: underline;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 25px;
-    padding-bottom: 20px;
+    color: #456;
+}
+.examples a:hover {
+    color: #457898;
+}
+.examples figcaption {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    padding-bottom: 40px;
 }
 ul {
     margin-left: 50px;
