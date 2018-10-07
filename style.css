@@ -10,42 +10,47 @@
 }
 h1 {
     background-color: #468947;
-    display: inline-block;
+    display: inline;
     margin-left: 70px;
-    font-family: 'Prosto One', cursive;
-    font-size: 40px;
-    padding: 0 13px;
+    margin-top: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+	padding: 0 13px;
+    line-height: 70px;
 
 }
 .HeaderConteiner{
-    background-image: url(images/11.jpg);
+    background-image: url(images/index1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    margin-bottom: 50px;
+    height: 450px;
+    margin-bottom: 40px;
 }
-.section1 {
-    /*display: flex;*/
+.HeaderConteiner p {
+    display: inline;
+    background-color: #567;
+    margin-left: 70px;
 }
-.section1 img {
-    height: 200px;
-    border-radius: 50%;
+.HeaderConteinerDescription {
+    padding-top: 180px;
 }
 .summary {
-
+    background-color: #FCEFFC;
 }
-h2 {
+.summary h2 {
     text-align: center;
-    font-family: 'Prosto One', cursive;
-    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
 }
 h3 {
     margin-left: 50px;
-    font-family: 'Prosto One', cursive;
-    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
 }
 p {
     text-align: center;
-    font-family: 'Prosto One', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .codeExamples {
     /*display: flex;*/
@@ -63,6 +68,5 @@ figure {
     border: 1px solid gray;
 }
 figure img {
-    height: 300px;
-    /*width: 350px;*/
+    height: 200px;
 }
